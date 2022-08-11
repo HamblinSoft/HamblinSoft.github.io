@@ -1,41 +1,76 @@
 {
     "applinks": {
         "details": [
-             {
-               "appIDs": [ "RT2U86296D.com.molina.mobile.myhealthinhand", 
-                           "4722GN9HC7.com.molina.mobile.myhealthinhand.dev", 
-                           "4722GN9HC7.com.molina.mobile.myhealthinhand.admin" ],
-               "components": [
-                 {
-                    "#": "no_universal_links",
-                    "exclude": true,
-                    "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
-                 },
-                 {
-                    "/": "/molina/*",
-                    "comment": "Matches any URL whose path starts with /molina/"
-                 },
-                 {
-                    "/": "/help/website/*",
-                    "exclude": true,
-                    "comment": "Matches any URL whose path starts with /help/website/ and instructs the system not to open it as a universal link"
-                 },
-                 {
-                    "/": "/help/*",
-                    "?": { "articleNumber": "????" },
-                    "comment": "Matches any URL whose path starts with /help/ and which has a query item with name 'articleNumber' and a value of exactly 4 characters"
-                 }
-               ]
-             }
-         ]
-     },
-     "webcredentials": {
-        "apps": [ "RT2U86296D.com.molina.mobile.myhealthinhand", 
-                  "4722GN9HC7.com.molina.mobile.myhealthinhand.dev", 
-                  "4722GN9HC7.com.molina.mobile.myhealthinhand.admin" ]
-     },
-  
-      "appclips": {
-          "apps": ["ABCED12345.com.example.MyApp.Clip"]
-      }
-  }
+            {
+                "appIDs": [
+                    "4Y79Z2NR75.com.com.HamblinSoft.TeslaApp"
+                ],
+                "components": [
+                    {
+                        "#": "no_universal_links",
+                        "exclude": true,
+                        "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+                    },
+                    {
+                        "/": "/automate/*",
+                        "comment": "Matches any URL whose path starts with /molina/"
+                    },
+                    {
+                        "/": "/help/website/*",
+                        "exclude": true,
+                        "comment": "Matches any URL whose path starts with /help/website/ and instructs the system not to open it as a universal link"
+                    },
+                    {
+                        "/": "/help/*",
+                        "?": {
+                            "articleNumber": "????"
+                        },
+                        "comment": "Matches any URL whose path starts with /help/ and which has a query item with name 'articleNumber' and a value of exactly 4 characters"
+                    }
+                ]
+            },
+            {
+                "appIDs": [
+                    "RT2U86296D.com.molina.mobile.myhealthinhand",
+                    "4722GN9HC7.com.molina.mobile.myhealthinhand.dev",
+                    "4722GN9HC7.com.molina.mobile.myhealthinhand.admin"
+                ],
+                "components": [
+                    {
+                        "#": "no_universal_links",
+                        "exclude": true,
+                        "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+                    },
+                    {
+                        "/": "/molina/*",
+                        "comment": "Matches any URL whose path starts with /molina/"
+                    },
+                    {
+                        "/": "/help/website/*",
+                        "exclude": true,
+                        "comment": "Matches any URL whose path starts with /help/website/ and instructs the system not to open it as a universal link"
+                    },
+                    {
+                        "/": "/help/*",
+                        "?": {
+                            "articleNumber": "????"
+                        },
+                        "comment": "Matches any URL whose path starts with /help/ and which has a query item with name 'articleNumber' and a value of exactly 4 characters"
+                    }
+                ]
+            }
+        ]
+    },
+    "webcredentials": {
+        "apps": [
+            "RT2U86296D.com.molina.mobile.myhealthinhand",
+            "4722GN9HC7.com.molina.mobile.myhealthinhand.dev",
+            "4722GN9HC7.com.molina.mobile.myhealthinhand.admin"
+        ]
+    },
+    "appclips": {
+        "apps": [
+            "ABCED12345.com.example.MyApp.Clip"
+        ]
+    }
+}
